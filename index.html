@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matchacih - The Art of Matcha</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-white text-gray-800">
+    <header class="bg-white shadow-sm sticky top-0 z-10">
+      <nav
+        class="container mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <div class="flex items-center space-x-3">
+          <a
+            href="#"
+            class="w-32 h-10 bg-emerald-700 rounded-full flex items-center justify-center font-bold text-xl text-white"
+            >Matchacih</a
+          >
+        </div>
+        <ul class="hidden md:flex items-center space-x-8">
+          <li>
+            <a
+              href="#hero"
+              class="text-gray-600 hover:text-emerald-700 font-medium"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#our-profile"
+              class="text-gray-600 hover:text-emerald-700 font-medium"
+              >Our Profile</a
+            >
+          </li>
+          <li>
+            <a
+              href="#our-team"
+              class="text-gray-600 hover:text-emerald-700 font-medium"
+              >Our Team</a
+            >
+          </li>
+          <li>
+            <a
+              href="#message-us"
+              class="bg-emerald-700 text-white rounded-full px-5 py-2 hover:bg-emerald-800 transition-colors"
+              >Message Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="container mx-auto px-6 py-16 md:py-24">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div class="text-center md:text-left">
+            <h1
+              class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight text-emerald-900"
+            >
+              Hi <span id="name-span"></span>, Welcome to The Art of Mindful
+              Matcha.
+            </h1>
+            <p class="text-lg text-gray-600 mb-8">
+              Discover the serenity and vibrant taste of our ceremonial-grade
+              matcha, sourced directly from the finest fields of Uji, Japan.
+            </p>
+            <a
+              href="#our-profile"
+              class="bg-emerald-700 text-white rounded-full px-8 py-4 font-bold hover:bg-emerald-800 transition-transform hover:scale-105 inline-block"
+              >Explore</a
+            >
+          </div>
+          <div>
+            <img
+              src="img/matcha-hero.jpg"
+              alt="A serene cup of matcha"
+              class="rounded-lg shadow-2xl"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="our-profile" class="bg-stone-50 py-16 md:py-24">
+        <div
+          class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center"
+        >
+          <div>
+            <img
+              src="img/matcha-whisk.jpg"
+              alt="Whisking matcha powder"
+              class="rounded-lg shadow-2xl"
+            />
+          </div>
+          <div class="text-center md:text-left">
+            <h2 class="text-3xl font-bold mb-6 text-emerald-900">
+              Our Company Profile
+            </h2>
+            <p class="text-gray-700 leading-relaxed">
+              Founded in 2024 in Bandung, Matchacih was born from a simple
+              passion: to share the authentic, mindful experience of Japanese
+              matcha. We partner with traditional tea farms in Uji, Kyoto, to
+              bring you the finest, stone-ground matcha powder. Our process
+              honors centuries of tradition to ensure every sip delivers a
+              smooth, rich flavor and a moment of pure tranquility.
+            </p>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-center mt-10 mx-6">
+            <div class="bg-white p-8 rounded-lg shadow-md">
+              <h3 class="text-2xl font-bold text-emerald-800 mb-4">
+                Our Vision
+              </h3>
+              <p class="text-gray-700 leading-relaxed">
+                To be the most trusted and beloved matcha brand in Indonesia,
+                inspiring a lifestyle of mindfulness and well-being through
+                every cup.
+              </p>
+            </div>
+            <div class="bg-white p-8 rounded-lg shadow-md">
+              <h3 class="text-2xl font-bold text-emerald-800 mb-4">
+                Our Mission
+              </h3>
+              <p class="text-gray-700 leading-relaxed">
+                To provide ceremonial-grade matcha of the highest quality,
+                educate our customers on its benefits, and build a community
+                that celebrates the art of mindful living.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="our-team" class="bg-stone-50 ">
+        <div class="container mx-auto px-6">
+          <section
+            id="our-profile"
+            class="container mx-auto px-6 py-16 md:py-24 text-center"
+          >
+            <h2 class="text-3xl font-bold mb-4 text-emerald-900">
+              Meet Our Artisans
+            </h2>
+            <p class="text-gray-600 max-w-2xl mx-auto mb-12">
+              Our team is composed of passionate experts dedicated to the art of
+              matcha, blending tradition with modern creativity.
+            </p>
+            <div
+              class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 max-w-4xl mx-auto"
+            >
+              <div
+                class="bg-white rounded-lg shadow-lg p-8 transform hover:-translate-y-2 transition-transform"
+              >
+                <img
+                  src="img/chef-kenji.jpg"
+                  alt="Head Barista Kenji Tanaka"
+                  class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-emerald-100"
+                />
+                <h3 class="text-xl font-bold mb-1">Kenji Tanaka</h3>
+                <p class="font-medium text-emerald-600 mb-3">
+                  Head Barista & Matcha Sommelier
+                </p>
+                <p class="text-gray-600">
+                  With 15 years of experience in traditional Japanese tea
+                  ceremonies, Kenji ensures every cup of matcha reflects its
+                  purest form and honors its rich heritage.
+                </p>
+              </div>
+
+              <div
+                class="bg-white rounded-lg shadow-lg p-8 transform hover:-translate-y-2 transition-transform"
+              >
+                <img
+                  src="img/chef-ayumi.jpg"
+                  alt="Pastry Chef Ayumi Sato"
+                  class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-emerald-100"
+                />
+                <h3 class="text-xl font-bold mb-1">Ayumi Sato</h3>
+                <p class="font-medium text-emerald-600 mb-3">
+                  Pastry Chef & Flavor Innovator
+                </p>
+                <p class="text-gray-600">
+                  Ayumi blends the delicate notes of matcha with modern pastry
+                  techniques, creating our beloved cakes and desserts that are
+                  both beautiful and delicious.
+                </p>
+              </div>
+            </div>
+          </section>
+
+
+      </section>
+
+      <section id="message-us" class="bg-emerald-50 py-16 md:py-24">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-12 max-w-2xl mx-auto">
+            <h2 class="text-3xl font-bold text-emerald-900">Message Us</h2>
+            <p class="text-gray-600">
+              We'd love to hear from you. Drop us a line for inquiries, events,
+              or just to say hello.
+            </p>
+          </div>
+          <form
+            id="message-form"
+            class="bg-white p-8 rounded-lg shadow-lg w-full max-w-2xl mx-auto"
+          >
+            <div class="mb-5">
+              <label for="nama" class="block font-semibold mb-2 text-gray-800"
+                >Full Name</label
+              >
+              <input
+                type="text"
+                id="nama"
+                placeholder="Your Name"
+                class="w-full p-3 border border-gray-300 rounded-md text-gray-800 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+                required
+              />
+            </div>
+            <div class="mb-5">
+              <label
+                for="tanggal-lahir"
+                class="block font-semibold mb-2 text-gray-800"
+                >Birth Date</label
+              >
+              <input
+                type="date"
+                id="tanggal-lahir"
+                class="w-full p-3 border border-gray-300 rounded-md text-gray-800 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+                required
+              />
+            </div>
+            <div class="mb-5">
+              <label class="block font-semibold mb-2 text-gray-800"
+                >Gender</label
+              >
+              <div class="flex items-center space-x-6 text-gray-800">
+                <label class="flex items-center"
+                  ><input
+                    type="radio"
+                    name="jenis-kelamin"
+                    value="Male"
+                    class="mr-2"
+                    required
+                  />
+                  Male</label
+                >
+                <label class="flex items-center"
+                  ><input
+                    type="radio"
+                    name="jenis-kelamin"
+                    value="Female"
+                    class="mr-2"
+                  />
+                  Female</label
+                >
+              </div>
+            </div>
+            <div class="mb-6">
+              <label for="pesan" class="block font-semibold mb-2 text-gray-800"
+                >Message</label
+              >
+              <textarea
+                id="pesan"
+                rows="4"
+                placeholder="Your Message Here..."
+                class="w-full p-3 border border-gray-300 rounded-md text-gray-800 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+                required
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="w-full bg-emerald-700 text-white font-bold py-3 px-4 rounded-full hover:bg-emerald-800 transition-colors"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-center py-6 bg-gray-900 text-gray-400">
+      <p>
+        &copy; <span id="current-year"></span> Zen Cha. All rights reserved.
+      </p>
+    </footer>
+
+    <div
+      id="preview-modal"
+      class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 hidden"
+    >
+      <div class="bg-white p-8 rounded-lg shadow-2xl w-full max-w-md">
+        <h3 class="font-bold text-2xl mb-4 text-gray-800">Data Submitted</h3>
+        <hr class="my-4 border-gray-200" />
+        <div class="space-y-3 text-gray-700">
+          <p>
+            <strong>Name:</strong>
+            <span id="output-nama" class="text-gray-900 font-medium"></span>
+          </p>
+          <p>
+            <strong>Birth Date:</strong>
+            <span
+              id="output-tanggal-lahir"
+              class="text-gray-900 font-medium"
+            ></span>
+          </p>
+          <p>
+            <strong>Gender:</strong>
+            <span
+              id="output-jenis-kelamin"
+              class="text-gray-900 font-medium"
+            ></span>
+          </p>
+          <p>
+            <strong>Message:</strong>
+            <span
+              id="output-pesan"
+              class="text-gray-900 font-medium break-words"
+            ></span>
+          </p>
+        </div>
+        <button
+          id="close-modal"
+          class="mt-6 w-full bg-gray-700 text-white font-bold py-2 px-4 rounded-full hover:bg-gray-800 transition-colors"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
